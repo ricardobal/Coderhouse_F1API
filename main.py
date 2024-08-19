@@ -1,5 +1,5 @@
 from modules.api import get_data_from_api
-from modules.configdb import grabar_archivo
+from modules.sqldata import grabar_archivo
 
 
 
