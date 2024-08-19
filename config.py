@@ -24,3 +24,4 @@ with engine.connect() as connection:
     query = "SELECT nombre FROM ricardobal_coderhouse.prueba LIMIT 10"  # Ajusta la consulta según tus necesidades
     df = pd.read_sql(query, connection)
     print(df)
+
